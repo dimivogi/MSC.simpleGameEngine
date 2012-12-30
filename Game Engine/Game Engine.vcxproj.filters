@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Audio Manager">
+      <UniqueIdentifier>{1f3d2aab-5dfe-48f0-9bcf-476c80f114ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Error Manager">
+      <UniqueIdentifier>{df32d482-e62d-4178-bc2a-671430d4d2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input Manager">
+      <UniqueIdentifier>{58bfc4ec-1f4b-409b-b469-c1acd2dc82b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics Manager">
+      <UniqueIdentifier>{87a2dd6e-c2c2-4280-a1be-815077cbc324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render Manager">
+      <UniqueIdentifier>{0ac398ce-53a5-4845-ad0b-2b007b0fcd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Manager">
+      <UniqueIdentifier>{6d716065-03cf-49a3-9497-0fd953429960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene Manager">
+      <UniqueIdentifier>{0d3f8d62-e7f8-4caa-8419-c43e2165a612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Script Manager">
+      <UniqueIdentifier>{9da1f597-bb54-4148-af46-6e3685aa3209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio Manager">
+      <UniqueIdentifier>{d0fa2465-8920-4e9e-9019-8150a41ac5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Error Manager">
+      <UniqueIdentifier>{bbe6683c-e1d6-4c7a-8d30-bcb2c42c694a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input Manager">
+      <UniqueIdentifier>{1244ca80-e385-4fff-abc2-ae2d7d5c9180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics Manager">
+      <UniqueIdentifier>{ead426d0-6c1f-447e-a49e-0864842bf344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render Manager">
+      <UniqueIdentifier>{b78ee045-81d7-4a4c-863f-796a0d051ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Manager">
+      <UniqueIdentifier>{a1c7784b-543f-4371-a3f6-8fa8f154927b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene Manager">
+      <UniqueIdentifier>{fd8a9efd-9bc6-49b7-94e3-d15c107575c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script Manager">
+      <UniqueIdentifier>{e7a02cc3-61c4-4fa0-b272-7948ff1a26ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Message Manager">
+      <UniqueIdentifier>{86d3364f-ce20-4ed1-b7b7-aa955170bbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Message Manager">
+      <UniqueIdentifier>{daa14306-3ad1-4738-b04f-7a703967417e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Object">
+      <UniqueIdentifier>{1472d5c1-3eb9-4ae7-a58d-e7336eecdc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generic Object">
+      <UniqueIdentifier>{77061ce5-b354-42ef-acdd-e6a009af59f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Object">
+      <UniqueIdentifier>{a3514af0-5697-4ce5-b24c-d165ac471f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Object">
+      <UniqueIdentifier>{32bddb4f-64a7-43b7-8947-c7027dffd56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generic Object">
+      <UniqueIdentifier>{947ee804-4ea7-4939-8131-775e27349680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Object">
+      <UniqueIdentifier>{9e733274-e67e-4d53-8679-779a5d76ae0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vector">
+      <UniqueIdentifier>{c55e48af-9791-4a41-96ef-0beb69e32a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vector">
+      <UniqueIdentifier>{6071380b-9d8d-4e7a-96b9-15002d78da73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngineDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error Manager\ErrorException.h">
+      <Filter>Header Files\Error Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Error Manager\ErrorManager.h">
+      <Filter>Header Files\Error Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio Manager\AudioManager.h">
+      <Filter>Header Files\Audio Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Input Manager\InputManager.h">
+      <Filter>Header Files\Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics Manager\PhysicsManager.h">
+      <Filter>Header Files\Physics Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Render Manager\RenderManager.h">
+      <Filter>Header Files\Render Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Manager\ResourceManager.h">
+      <Filter>Header Files\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene Manager\SceneManager.h">
+      <Filter>Header Files\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Script Manager\ScriptManager.h">
+      <Filter>Header Files\Script Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Message Manager\MessageManager.h">
+      <Filter>Header Files\Message Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Window Object\WindowObject.h">
+      <Filter>Header Files\Window Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic Object\GenericObject.h">
+      <Filter>Header Files\Generic Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine Object\EngineObject.h">
+      <Filter>Header Files\Engine Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Message Manager\Message.h">
+      <Filter>Header Files\Message Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f\Vector3f.h">
+      <Filter>Header Files\Vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dll_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDefines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Error Manager\ErrorException.cpp">
+      <Filter>Source Files\Error Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Error Manager\ErrorManager.cpp">
+      <Filter>Source Files\Error Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio Manager\AudioManager.cpp">
+      <Filter>Source Files\Audio Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Input Manager\InputManager.cpp">
+      <Filter>Source Files\Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics Manager\PhysicsManager.cpp">
+      <Filter>Source Files\Physics Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Manager\RenderManager.cpp">
+      <Filter>Source Files\Render Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Manager\ResourceManager.cpp">
+      <Filter>Source Files\Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene Manager\SceneManager.cpp">
+      <Filter>Source Files\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Script Manager\ScriptManager.cpp">
+      <Filter>Source Files\Script Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Message Manager\MessageManager.cpp">
+      <Filter>Source Files\Message Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Window Object\WindowObject.cpp">
+      <Filter>Source Files\Window Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Generic Object\GenericObject.cpp">
+      <Filter>Source Files\Generic Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Message Manager\Message.cpp">
+      <Filter>Source Files\Message Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f\Vector3f.cpp">
+      <Filter>Source Files\Vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
